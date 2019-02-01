@@ -9,7 +9,7 @@ describe('Selectors', () => {
     expect(window.alert).toHaveBeenCalled();
   });
 
-  it('frameIt() binds an event that frames the minion when the page loads', function() {
+  console.log('frameIt() binds an event that frames the minion when the page loads', function() {
     window.frameIt()
 
     const img = window.$('img')
